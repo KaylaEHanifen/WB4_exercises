@@ -1,1 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Essential Must-Read Novels</title>
+    <script>
+        // Define Book objects
+        let books = [
+            {
+                title: "Wuthering Heights",
+                author: "Emily Bronte",
+                published: 1847,
+                price: 15.99
+            },
+            {
+                title: "The Great Gatsby",
+                author: "F. Scott Fitzgerald",
+                published: 1925,
+                price: 12.99
+            }
+        ];
+
+        // Function to generate book details
+        function displayBookDetails(book) {
+            let bookDetails = "Title: " + book.title + ", Author: " + book.author + ", Published: " + book.published + ", Price: $" + book.price.toFixed(2);
+            document.getElementById("bookDetails").innerHTML = bookDetails;
+        }
+
+        // Function to calculate total price of book 1 and book 2
+        function calculateTotalPrice() {
+            let totalPrice = books[0].price + books[1].price;
+            document.getElementById("totalPrice").innerText = "Total Price: $" + totalPrice.toFixed(2);
+        }
+    </script>
+</head>
+
+<body>
+    <h1>Book Details</h1>
+    <div id="bookDetails"></div>
+    <button onclick="displayBookDetails(books[0])">Wuthering Heights Novel Details</button>
+    <button onclick="displayBookDetails(books[1])">The Great Gatsby Novel Details</button>
+    <br>
+    <button onclick="calculateTotalPrice()">Calculate Total Price</button>
+    <div id="totalPrice"></div>
+</body>
+
+</html>
