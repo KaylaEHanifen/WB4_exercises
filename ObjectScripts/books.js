@@ -40,7 +40,7 @@ let books = [
         pages: 280,
         author: "Mary Shelley",
         published: 1818,
-        genre: ['Gothic Fiction', 'Horror', 'Science Fiction'],
+        genre: ["Gothic Fiction", 'Horror', "Science Fiction"],
         isbn: '978-0545227707',
         suggestedBy: 'Caitlin Railson'
     },
@@ -49,7 +49,7 @@ let books = [
         pages: 1276,
         author: "Alexandre Dumas",
         published: 1844,
-        genre: ['Adventure', 'Historical Fiction', 'Revenge'],
+        genre: ["Adventure", 'Historical Fiction', 'Revenge'],
         isbn: '978-0545227708',
         suggestedBy: 'Patrick Smith'
     },
@@ -76,7 +76,7 @@ let books = [
         pages: 320,
         author: 'Ken Kesey',
         published: 1962,
-        genre: ['Psychological Fiction', 'Satire', 'Tragedy'],
+        genre: ['Psychological Fiction', "Satire", "Tragedy"],
         isbn: '978-0545227711',
         suggestedBy: 'Pat Hanifen'
     },
@@ -94,49 +94,54 @@ let books = [
         pages: 453,
         author: "Joseph Heller",
         published: 1961,
-        genre: ['Satire', 'War', 'Black Comedy'],
+        genre: ["Satire", "War", 'Black Comedy'],
         isbn: '978-0545227713',
-        suggestedBy: 'Rene Banuelos'
+        suggestedBy: 'Debra Dewis'
     },
     {
-        title: "Silence of the Lambs",
-        pages: 380,
-        author: 'Thomas Harris',
-        genre: ['Thriller', 'Horror'],
-        isbn: '978-0-312-34986-5',
-        suggestedBy: 'Guadalupe (Lupe) Argumedo Saucedo'
+        title: "The Scarlet Letter",
+        pages: 272,
+        author: 'Nathaniel Hawthorne',
+        published: 1850,
+        genre: ["Romance", "Historical Fiction", "Tragedy"],
+        isbn: '978-0545227714',
+        suggestedBy: 'David Williams'
     },
     {
-        title: "One Piece",
-        pages: 250,
-        author: "Eiichiro Oda",
-        genre: ["Shonen", 'Adventure', 'Action'],
-        isbn: '',
-        suggestedBy: 'Uriel Delgado He/Him AZ'
+        title: "Alice's Adventures in Wonderland",
+        pages: 96,
+        author: "Lewis Carroll",
+        published: 1865,
+        genre: ['Fantasy', 'Childrens', "Adventure"],
+        isbn: '978-0545227715',
+        suggestedBy: 'Kayla Hanifen'
     },
     {
         title: "The Seven Habits of Highly Effective People",
         pages: 381,
         author: "Stephen Covey",
+        published: 1989,
         genre: ["Self Help", "Business", "Psychology"],
-        isbn: '',
-        suggestedBy: 'Alfi Ali'
+        isbn: '978-0545227716',
+        suggestedBy: 'Benjamine Button'
     },
     {
-        title: "A Thousand Splendid Suns",
-        pages: 86,
-        author: "Khaled Hosseini",
-        genre: ["Novel", "Domestic Fiction"],
-        isbn: '',
-        suggestedBy: 'Maximo Mayo'
+        title: "Heart of Darkness",
+        pages: 96
+        author: "Joseph Conrad",
+        published: 1899,
+        genre: ["Adventure", "Psychological Fiction", "Horror"],
+        isbn: '978-0545227717',
+        suggestedBy: 'Michael Holland'
     },
     {
-        title: "Eat That Frog!",
-        pages: 117,
-        author: 'Brian Tracy',
-        genre: ['Self Challenging', 'Lessons'],
-        isbn: '',
-        suggestedBy: 'Sabrina Robles'
+        title: "Contact",
+        pages: 432,
+        author: 'Carl Sagan',
+        published: 1985,
+        genre: ["Science Fiction", 'Speculative Fiction', 'Philosophical Fiction'],
+        isbn: '978-0545227718',
+        suggestedBy: 'Courtney McDaniel'
     }
 ];
 console.log("Genre of the first book:" + books[0].title + "is: " + books[0].genre[1]);
