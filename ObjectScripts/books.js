@@ -5,7 +5,7 @@
 //books[1].author; // the secondbook author
 //the secondbook, second genre;
 
-console.log(books[0].price.toFixed(2))
+console.log(books[0].price.toFixed(2)); // toFixed() method to format the number to two decimal places
 let books = [
     {
         title: 'Wuthering Heights',
@@ -24,7 +24,8 @@ let books = [
         published: -800,
         genre: ['Epic', 'Poetry', 'Adventure'],
         isbn: '978-0545227705',
-        suggestedBy: 'Josh Castro'
+        suggestedBy: 'Josh Castro',
+        price: 12.99
     },
     {
         title: "1984",
@@ -33,7 +34,8 @@ let books = [
         published: 1949,
         genre: ['Dystopian', 'Political Fiction', 'Social Science Fiction'],
         isbn: '978-0545227706',
-        suggestedBy: 'Sean Gerhardt'
+        suggestedBy: 'Sean Gerhardt',
+        price: 15.99
     },
     {
         title: "Frankenstein",
@@ -42,7 +44,8 @@ let books = [
         published: 1818,
         genre: ["Gothic Fiction", 'Horror', "Science Fiction"],
         isbn: '978-0545227707',
-        suggestedBy: 'Caitlin Railson'
+        suggestedBy: 'Caitlin Railson',
+        price: 9.99
     },
     {
         title: "The Count of Monte Cristo",
@@ -51,7 +54,8 @@ let books = [
         published: 1844,
         genre: ["Adventure", 'Historical Fiction', 'Revenge'],
         isbn: '978-0545227708',
-        suggestedBy: 'Patrick Smith'
+        suggestedBy: 'Patrick Smith',
+        price: 19.99
     },
     {
         title: "The Iliad",
@@ -59,8 +63,9 @@ let books = [
         author: "Homer",
         published: -800,
         genre: ["Epic", 'Poetry', 'War'],
-        isbn: '978-0545227709,
-        suggestedBy: 'Angus ODonnell'
+        isbn: '978-0545227709',
+        suggestedBy: 'Angus ODonnell',
+        price: 11.99
     },
     {
         title: "Infinite Jest",
@@ -69,7 +74,8 @@ let books = [
         published: 1996,
         genre: ['Satire', 'Postmodernism', 'Tragicomedy'],
         isbn: '978-0545227710',
-        suggestedBy: 'Michael Blackstone'
+        suggestedBy: 'Michael Blackstone',
+        price: 14.99
     },
     {
         title: "One Flew Over the Cuckoo's Nest",
@@ -78,7 +84,8 @@ let books = [
         published: 1962,
         genre: ['Psychological Fiction', "Satire", "Tragedy"],
         isbn: '978-0545227711',
-        suggestedBy: 'Pat Hanifen'
+        suggestedBy: 'Pat Hanifen',
+        price: 13.99
     },
     {
         title: 'The Outsiders',
@@ -87,7 +94,8 @@ let books = [
         published: 1967,
         genre: ['Young Adult', 'Coming of Age', 'Social Issues'],
         isbn: '978-0545227712',
-        suggestedBy: 'Noe Dandurand'
+        suggestedBy: 'Noe Dandurand',
+        price: 8.99
     },
     {
         title: "Catch-22",
@@ -96,7 +104,8 @@ let books = [
         published: 1961,
         genre: ["Satire", "War", 'Black Comedy'],
         isbn: '978-0545227713',
-        suggestedBy: 'Debra Dewis'
+        suggestedBy: 'Debra Dewis',
+        price: 16.99
     },
     {
         title: "The Scarlet Letter",
@@ -105,7 +114,8 @@ let books = [
         published: 1850,
         genre: ["Romance", "Historical Fiction", "Tragedy"],
         isbn: '978-0545227714',
-        suggestedBy: 'David Williams'
+        suggestedBy: 'David Williams',
+        price: 10.99
     },
     {
         title: "Alice's Adventures in Wonderland",
@@ -114,7 +124,8 @@ let books = [
         published: 1865,
         genre: ['Fantasy', 'Childrens', "Adventure"],
         isbn: '978-0545227715',
-        suggestedBy: 'Kayla Hanifen'
+        suggestedBy: 'Kayla Hanifen',
+        price: 7.99
     },
     {
         title: "The Seven Habits of Highly Effective People",
@@ -123,16 +134,18 @@ let books = [
         published: 1989,
         genre: ["Self Help", "Business", "Psychology"],
         isbn: '978-0545227716',
-        suggestedBy: 'Benjamine Button'
+        suggestedBy: 'Benjamine Button',
+        price: 18.99
     },
     {
         title: "Heart of Darkness",
-        pages: 96
+        pages: 96,
         author: "Joseph Conrad",
         published: 1899,
         genre: ["Adventure", "Psychological Fiction", "Horror"],
         isbn: '978-0545227717',
-        suggestedBy: 'Michael Holland'
+        suggestedBy: 'Michael Holland',
+        price: 7.99
     },
     {
         title: "Contact",
@@ -141,7 +154,8 @@ let books = [
         published: 1985,
         genre: ["Science Fiction", 'Speculative Fiction', 'Philosophical Fiction'],
         isbn: '978-0545227718',
-        suggestedBy: 'Courtney McDaniel'
+        suggestedBy: 'Courtney McDaniel',
+        price: 17.99
     }
 ];
 console.log("Genre of the first book:" + books[0].title + "is: " + books[0].genre[1]);
